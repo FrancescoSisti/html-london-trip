@@ -15,96 +15,108 @@
     <!-- Header con immagini e titolo -->
     <header>
         <h1>Il mio viaggio a Londra</h1>
-        <img src="images/pexels-bill-emrich-230794-0.jpg" alt="LondonLandscape1">
-        <img src="images/pexels-bill-emrich-230794-1.jpg" alt="LondonLandscape2">
-        <img src="images/pexels-bill-emrich-230794-2.jpg" alt="LondonLandscape3">
-        <hr>
+
+        <div>
+            <img src="images/pexels-bill-emrich-230794-0.jpg" alt="LondonLandscape1">
+            <img src="images/pexels-bill-emrich-230794-1.jpg" alt="LondonLandscape2">
+            <img src="images/pexels-bill-emrich-230794-2.jpg" alt="LondonLandscape3">
+            <hr>
+        </div>
     </header>
 
     <main>
         <!-- Tabella dei costi -->
-        <h2>Le mie spese</h2>
-        <table>
-            <thead>
-                <tr>
-                    <th>Numero</th>
-                    <th>Descrizione</th>
-                    <th>Costo</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>1</td>
-                    <td>Biglietto Aereo</td>
-                    <td>120&euro;</td>
-                </tr>
-                <tr>
-                    <td>1</td>
-                    <td>Biglietto Aereo</td>
-                    <td>120&euro;</td>
-                </tr>
-                <tr>
-                    <td>1</td>
-                    <td>Biglietto Aereo</td>
-                    <td>120&euro;</td>
-                </tr>
-                <tr>
-                    <td colspan="2">Totale</td>
-                    <td>360&euro;</td>
-                </tr>
-            </tbody>
-        </table>
-
-        <hr>
+        <section id="expenses">
+            <h2>Le mie spese</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Numero</th>
+                        <th>Descrizione</th>
+                        <th>Costo</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>Biglietto Aereo</td>
+                        <td>120&euro;</td>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td>Biglietto Aereo</td>
+                        <td>120&euro;</td>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td>Biglietto Aereo</td>
+                        <td>120&euro;</td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">Totale</td>
+                        <td>360&euro;</td>
+                    </tr>
+                </tbody>
+            </table>
+            <hr>
+        </section>
 
         <!-- Lista non numerata con le cose da fare -->
-        <h3>Cose da fare:</h3>
-        <ul>
-            <li>Visitare la Tower of London&#x2715;</li>
-            <li>Visitare Greenwich&#x2713;</li>
-            <li>Ascoltare un' artista di strada a Covent Garden&#x2713;</li>
-            <li>Mangiare il tipico Fish and Chips inglese&#x2715;</li>
-        </ul>
+        <section id="todos">
+            <h3>Cose da fare:</h3>
+            <ul>
+                <li>Visitare la Tower of London&#x2715;</li>
+                <li>Visitare Greenwich&#x2713;</li>
+                <li>Ascoltare un' artista di strada a Covent Garden&#x2713;</li>
+                <li>Mangiare il tipico Fish and Chips inglese&#x2715;</li>
+            </ul>
+        </section>
+
         <!-- Lista ordinata con le informazioni utili -->
-        <hr>
-        <h3>Info utili:</h3>
-        <ol>
-            <li>
-                <div>Numeri utili di emergenza:</div>
-                <ul>
-                    <li><strong>999</strong>-Emergenza</li>
-                    <li><strong>101</strong>-Numero polizia</li>
-                    <li><strong>111</strong>-Numero assistenza medica</li>
-                </ul>
-            </li>
+        <section id="useful-info">
+            <hr>
+            <h3>Info utili:</h3>
+            <ol>
+                <li>
+                    <div>Numeri utili di emergenza:</div>
+                    <ul>
+                        <li><strong>999</strong>-Emergenza</li>
+                        <li><strong>101</strong>-Numero polizia</li>
+                        <li><strong>111</strong>-Numero assistenza medica</li>
+                    </ul>
+                </li>
 
-            <li>
-                <div>Hotel:</div>
-                <ul>
-                    <li><strong>Nome hotel:</strong>Buckingham Palace</li>
-                    <li><strong>Indirizzo hotel:</strong>Westminster, London SW1A 1AA,Regno Unito</li>
-                </ul>
-            </li>
+                <li>
+                    <div>Hotel:</div>
+                    <ul>
+                        <li><strong>Nome hotel:</strong>Buckingham Palace</li>
+                        <li><strong>Indirizzo hotel:</strong>Westminster, London SW1A 1AA,Regno Unito</li>
+                    </ul>
+                </li>
 
-            <li>
-                <div>Aereo:</div>
-                <ul>
-                    <li><strong>Volo di andata:</strong>YI234X, ore 9:30 da Milano Malpensa</li>
-                    <li><strong>Volo di ritorno</strong>YI236X, ore 18:30 da London Heathrow</li>
-                </ul>
-            </li>
-        </ol>
+                <li>
+                    <div>Aereo:</div>
+                    <ul>
+                        <li><strong>Volo di andata:</strong>YI234X, ore 9:30 da Milano Malpensa</li>
+                        <li><strong>Volo di ritorno</strong>YI236X, ore 18:30 da London Heathrow</li>
+                    </ul>
+                </li>
+            </ol>
 
-        <hr>
+            <hr>
+        </section>
 
         <!-- Foto conclusive-->
-        <h3>Le foto</h3>
-        <img src="https://www.abta.com/sites/default/files/styles/large/public/media/uploads/london-400x400-compressor_0.jpg"
-            alt="Foto di Londra">
-        <img src="https://imgc.allpostersimages.com/img/posters/evening-tower-bridge-and-river-thames-london_u-L-P2QVZJ0.jpg?artPerspective=n"
-            alt="Foto di Londra2">
+        <section id="pics">
+            <h3>Le foto</h3>
+            <img src="https://www.abta.com/sites/default/files/styles/large/public/media/uploads/london-400x400-compressor_0.jpg"
+                alt="Foto di Londra">
+            <img src="https://imgc.allpostersimages.com/img/posters/evening-tower-bridge-and-river-thames-london_u-L-P2QVZJ0.jpg?artPerspective=n"
+                alt="Foto di Londra2">
+        </section>
     </main>
     <!-- Fine del sito -->
+
 </body>
 
 </html>
